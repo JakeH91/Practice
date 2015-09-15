@@ -5,9 +5,15 @@
   background-color: rgb(69,61,85);
 }
 
+.resource-list {
+  width: 40%;
+  margin-left: 5%;
+}
+
 blockquote {
-  border: 1px solid gray;
+  border: 1px solid white;
   text-align: center;
+  margin-left: 0;
 }
 
 img {
@@ -15,5 +21,6 @@ img {
 }
 
 body {
+  background: #e3e3e3;
   font-family: sans-serif;
 }
