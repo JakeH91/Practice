@@ -5,7 +5,13 @@
   background-color: rgb(69,61,85);
 }
 
+.resources {
+  width: 50%;
+  margin-left: 5%;
+}
+
 .resource-list {
+  border: 2px solid white;
   width: 40%;
   margin-left: 5%;
 }
