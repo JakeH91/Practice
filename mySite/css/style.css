@@ -5,6 +5,11 @@
   background-color: rgb(69,61,85);
 }
 
+blockquote {
+  border: 1px solid gray;
+  text-align: center;
+}
+
 img {
   width: 80%;
 }
