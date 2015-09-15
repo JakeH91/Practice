@@ -11,25 +11,33 @@
   background-color: rgb(69,61,85);
 }
 
+.header img {
+  width: 70%;
+}
+
 .resources {
   width: 50%;
   margin-left: 5%;
 }
 
-.resource-list {
+.resource-list-a {
+  float: left;
   border: 2px solid white;
   width: 40%;
   margin-left: 5%;
+}
+
+.resource-list-b {
+  float: right;
+  border: 2px solid white;
+  width: 40%;
+  margin-right: 5%;
 }
 
 blockquote {
   border: 1px solid white;
   text-align: center;
   margin-left: 0;
-}
-
-img {
-  width: 80%;
 }
 
 body {
