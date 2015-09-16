@@ -67,6 +67,21 @@
   margin-right: 5%;
 }
 
+form li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+textarea {
+  width: 400px;
+  height: 100px;
+}
+
 blockquote {
   border: 1px solid white;
   text-align: center;
