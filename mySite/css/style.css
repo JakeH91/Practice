@@ -19,6 +19,18 @@
   width: 70%;
 }
 
+/* This is how you would replace text with a logo.
+   I need to figure out how to wrap text around the logo.
+   Make width and height exactly equal to the image.
+
+#logo {
+  background: url(../img/logo.jpg) no-repeat;
+  text-indent: -9999px;
+  widht: 154px;
+  height: 116px;
+}
+*/
+
 .navigation li {
   display: inline;
   position: relative;
