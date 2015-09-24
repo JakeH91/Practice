@@ -15,6 +15,7 @@ div div {background: #A4CA39; position: relative;}
   border-radius: 110px 110px 0 0;
   -moz-border-radius: 110px 110px 0 0;
   -webkit-border-radius: 110px 110px 0 0;
+  -webkit-transition: all 0.1s ease-in;
 }
 
 .l_eye, .r_eye {
@@ -68,6 +69,7 @@ div div {background: #A4CA39; position: relative;}
   border-radius: 25px;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
+  -webkit-transition: all 0.1s ease-in;
 }
 
 .l_leg, .r_leg {
@@ -81,3 +83,21 @@ div div {background: #A4CA39; position: relative;}
 .l_arm {left: -58px;}
 .r_leg {right: 45px;}
 .l_leg {left: 45px;}
+
+.head:hover {
+  -transform: rotate(-5deg) translate(-4px, -8px);
+  -moz-transform: rotate(-5deg) translate(-4px, -8px);
+  -webkit-transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.l_arm:hover {
+  -transform: rotate(15deg) translate(-14px, 0);
+  -moz-transform: rotate(15deg) translate(-14px, 0);
+  -webkit-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.r_arm:hover {
+  -transform: rotate(-15deg) translate(14px, 0);
+  -moz-transform: rotate(-15deg) translate(14px, 0);
+  -webkit-transform: rotate(-15deg) translate(14px, 0);
+}
