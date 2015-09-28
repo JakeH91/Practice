@@ -1,0 +1,53 @@
+/*
+MISC.
+*/
+
+ul {
+  display: inline;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.wrap {
+  position: relative;
+}
+
+/*
+HEADER
+*/
+
+header {
+  color: #555;
+  position: relative;
+  width: 100%
+}
+
+header ul {
+  float: right;
+}
+
+header a {
+  color: black;
+}
+
+/*
+MAIN
+*/
+
+.main form input[type="submit"]{
+  color: #757575;
+}
+
+/*
+FOOTER
+*/
+
+footer a {
+  color: #666;
+}
