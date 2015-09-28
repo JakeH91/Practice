@@ -2,6 +2,12 @@
 MISC.
 */
 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 ul {
   display: inline;
 }
@@ -16,6 +22,8 @@ li a {
 
 .wrap {
   position: relative;
+  width: 100%;
+  min-height: 100%;
 }
 
 /*
@@ -23,9 +31,11 @@ HEADER
 */
 
 header {
-  color: #555;
+  color: #aaa;
   position: relative;
-  width: 100%
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 header ul {
@@ -40,14 +50,69 @@ header a {
 MAIN
 */
 
+.main {
+  clear: both;
+  position: relative;
+  margin: auto;
+  padding: 10px;
+  width: 60%;
+  padding-bottom: 60px;
+}
+
+.main h1 {
+  background: url(../img/logo.jpg);
+  height: 92px;
+  width: 278px;
+  margin: auto;
+  text-indent: -9999px;
+}
+
+.main h4 {
+  float: right;
+}
+
+.main form {
+  clear: both;
+  width: 543px;
+  margin: auto;
+}
+
 .main form input[type="submit"]{
   color: #757575;
+  margin: 20px;
+}
+
+.search {
+  width: 543px;
+}
+
+.change {
+  width: 163px;
+  height: 28px;
+  position: relative;
+  margin: auto;
+  font-size: small;
 }
 
 /*
 FOOTER
 */
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
 footer a {
   color: #666;
+}
+
+footer ul:first-of-type {
+  float: left;
+}
+
+footer ul:last-of-type {
+  float: right;
 }
