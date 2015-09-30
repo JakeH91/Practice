@@ -8,6 +8,10 @@ body {
   height: 100%;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 ul {
   display: inline;
 }
@@ -40,11 +44,42 @@ header {
 
 header ul {
   float: right;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  height: 32px;
 }
 
-header a {
+header li {
   color: black;
+  margin-left: 15px;
 }
+
+#apps, #notif, #account {
+  position: absolute;
+  display: block;
+  margin-left: 15px;
+  text-indent: -9999px;
+}
+
+#apps {
+  background: url(../img/apps.jpg) no-repeat;
+  height: 30px;
+  width: 30px;
+}
+
+#notif {
+  background: url(../img/notif.jpg) no-repeat;
+  height: 20px;
+  width: 16px;
+}
+
+#account {
+  background: url(../img/account.jpg) no-repeat;
+  height: 32px;
+  width: 32px;
+}
+
+
 
 /*
 MAIN
@@ -53,22 +88,18 @@ MAIN
 .main {
   clear: both;
   position: relative;
-  margin: auto;
+  margin: 89px auto 0;
   padding: 10px;
   width: 60%;
   padding-bottom: 60px;
 }
 
 .main h1 {
-  background: url(../img/logo.jpg);
+  background: url(../img/logo.jpg) no-repeat;
   height: 92px;
   width: 278px;
-  margin: auto;
+  margin: 109px auto 0;
   text-indent: -9999px;
-}
-
-.main h4 {
-  float: right;
 }
 
 .main form {
