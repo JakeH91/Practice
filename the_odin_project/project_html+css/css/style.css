@@ -14,6 +14,7 @@ a:hover {
 
 ul {
   display: inline;
+  -webkit-padding-start: 0;
 }
 
 li {
@@ -39,38 +40,61 @@ header {
   position: relative;
   width: 100%;
   box-sizing: border-box;
-  padding: 10px;
+  float: right;
 }
 
-header ul {
+ul.words {
   float: right;
+  position: absolute;
   font-size: 13px;
   font-family: arial, sans-serif;
   height: 32px;
+  right: 145px;
+}
+
+.words li {
+  margin-right: 15px;
+}
+
+.words li, .words a {
+  height: 32px;
+  position: relative;
+  display: inline-table;
+  line-height: 32px;
+  width: 20px;
+}
+
+#not-link {
+  color: #999;
+}
+
+ul.images {
+  float:  right;
 }
 
 header li {
   color: black;
-  margin-left: 15px;
 }
 
+
 #apps, #notif, #account {
-  position: absolute;
-  display: block;
-  margin-left: 15px;
+  position: relative;
   text-indent: -9999px;
+  display: inline-table;
+  margin-right: 15px;
 }
 
 #apps {
-  background: url(../img/apps.jpg) no-repeat;
-  height: 30px;
+  background: url(../img/apps.jpg) center center no-repeat;
+  height: 32px;
   width: 30px;
 }
 
 #notif {
-  background: url(../img/notif.jpg) no-repeat;
-  height: 20px;
-  width: 16px;
+  background: url(../img/notif.jpg) center center no-repeat;
+  height: 32px;
+  width: 30px;
+  margin: none;
 }
 
 #account {
@@ -78,7 +102,6 @@ header li {
   height: 32px;
   width: 32px;
 }
-
 
 
 /*
@@ -91,7 +114,7 @@ MAIN
   margin: 89px auto 0;
   padding: 10px;
   width: 60%;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .main h1 {
@@ -133,17 +156,33 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 40px;
+  background: #f2f2f2;
+  font-family: arial,sans-serif;
+  font-size: small;
+  border-top: 1px solid #e1e1e1;
 }
 
 footer a {
   color: #666;
 }
 
+footer ul {
+  margin: 11px 0 11px;
+}
+
 footer ul:first-of-type {
   float: left;
 }
 
+footer ul:first-of-type li {
+  margin-left: 27px;
+}
+
 footer ul:last-of-type {
   float: right;
+}
+
+footer ul:last-of-type li {
+  margin-right: 27px;
 }
