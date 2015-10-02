@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: arial, sans-serif;
 }
 
 a:hover {
@@ -112,7 +113,7 @@ MAIN
   clear: both;
   position: relative;
   margin: 89px auto 0;
-  padding: 10px;
+  padding: 20px;
   width: 60%;
   padding-bottom: 40px;
 }
@@ -121,7 +122,7 @@ MAIN
   background: url(../img/logo.jpg) no-repeat;
   height: 92px;
   width: 278px;
-  margin: 109px auto 0;
+  margin: 109px auto 30px;
   text-indent: -9999px;
 }
 
@@ -131,9 +132,35 @@ MAIN
   margin: auto;
 }
 
+.main form input[type="text"]{
+  width: 543px;
+  height: 38px;
+  padding: 5px 50px 0 9px;
+}
+
+.buttons {
+  width: 571px;
+  height: 58px;
+  padding-top: 18px;
+}
+
 .main form input[type="submit"]{
+  background: #f2f2f2;
   color: #757575;
-  margin: 20px;
+  border-radius: 2px;
+  font-weight: bold;
+  height: 36px;
+  padding: 0 16px;
+  border: 1px solid #f2f2f2;
+  margin: 11px 4px;
+}
+
+.main form input[type="submit"]:hover {
+  color: #222;
+  background: #f8f8f8;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  border: 1px solid #c6c6c6;
 }
 
 .search {
@@ -144,8 +171,13 @@ MAIN
   width: 163px;
   height: 28px;
   position: relative;
-  margin: auto;
+  margin: 20px auto 13px;
   font-size: small;
+}
+
+.change a {
+  text-decoration: none;
+  color: #12c;
 }
 
 /*
