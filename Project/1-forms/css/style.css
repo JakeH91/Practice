@@ -1,0 +1,30 @@
+.header {
+  background-image: url("../img/header.jpg");
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+
+.header h3 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 8px;
+}
+
+.side-sect {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid rgba(140, 47, 94, 0.5);
+}
+
+.pad-top {
+  padding-top: 5px;
+}
+
+.marg-right {
+  margin-right: 30px;
+ }
+
+ .main {
+  margin-bottom: 20px;
+ }

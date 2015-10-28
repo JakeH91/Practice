@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+    <title>Forms</title>
+    <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      
+      <div class="row header">
+          <h1 class="col-sm-8">Website Name</h1>
+          <h3 class="col-sm-3">The number 1 Website by Jake...literally</p>
+      </div>
+      
+      <div class="row main">
+        
+        <div class="col-sm-8" style="margin-top: 10px">
+          <div class="btn-group btn-group-justified">
+            <a href="#" class="btn btn-primary">Home</a>
+            <a href="#" class="btn btn-primary">Browse</a>
+            <a href="#" class="btn btn-primary">Post</a>
+            <a href="#" class="btn btn-primary">Request</a>
+            <a href="#" class="btn btn-primary">About</a>
+            <a href="#" class="btn btn-primary active">Contact Us</a>
+          </div>
+
+          <h2>Contact Us</h2>
+          <p>Before sending us your inquisitive questions or delightful advice, please fill out some information, so we can find you if you're nasty to us.</p>
+
+          <table>
+            <fieldset>
+
+              <legend>Personal Info</legend>
+
+              <div class="form-group">
+                <label for="firstName" class="sr-only">First Name</label>
+                <input id="firstName" class="form-control" placeholder="John" type="text" autofocus>
+              </div>
+              
+              <div class="form-group">
+                <label for="lastName" class="sr-only">Last Name</label>
+                <input id="lastName" class="form-control" placeholder="Smith" type="text">
+              </div>  
+              
+              <div class="form-group">
+                <label for="email" class="sr-only">Email</label>
+                <input id="email" class="form-control" placeholder="john.smith@example.com" type="email">
+              </div>
+
+            </fieldset>
+
+            <fieldset>
+
+              <legend>Login Info</legend>
+              
+              <div class="form-group">
+                <label for="username">Username</label>
+                <input id="username" class="form-control" type="text">
+              </div>
+              
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input id="password" class="form-control" type="password">
+              </div>  
+
+              <div class="form-group">
+                <label for="confirm">Confirm Password</label>
+                <input id="confirm" class="form-control" type="password">
+              </div>  
+           
+            </fieldset>
+
+            <fieldset>
+
+              <legend>Address</legend>
+
+              <div class="form-group">
+                <label for="firstLine">First Line</label>
+                <input id="firstLine" class="form-control" type="text">
+              </div>
+              
+              <div class="form-group">
+                <label for="secondLine">Second Line</label>
+                <input id="secondLine" class="form-control" type="text">
+              </div>
+              
+              <div class="form-group">
+                <label for="postcode">Postcode</label>
+                <input id="postcode" class="form-control" type="text">
+              </div>  
+                
+            </fieldset>
+
+            <fieldset>
+
+              <legend>Your Comment</legend>
+
+              <div class="row">
+                
+                <div class="col-sm-4">
+                  <label for="subject">Subject</label>
+                  <select name="subject" id="subject">
+                    <option value="page">Page Layout</option>
+                    <option value="work">Job Opportunities</option>
+                    <option value="complaint">Complaint</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <br/>
+                </div>
+                  
+                <div class="col-sm-8">
+                  <label>How happy have you been with this service?</label>
+                  <br/>
+                  <input type="radio" name="opinion" id="happy">
+                  <label for="happy" class="marg-right">Happy</label>
+                  <input type="radio" name="opinion" id="neutral">
+                  <label for="neutral"class="marg-right">Meh</label>
+                  <input type="radio" name="opinion" id="not-happy">
+                  <label for="not-happy">Bloody Furious</label>
+                </div> 
+                     
+              </div>
+                
+              <label for="area">Comment</label>            
+              <textarea id="area" cols="104" rows="10"></textarea>
+              <a href="#" class="btn btn-block btn-primary">SUBMIT COMMENT/QUESTION</a> 
+            </fieldset>
+
+          </table>
+
+        </div>
+        
+        <div class="col-sm-4 side-bar">
+          <div class="side-sect">
+            <h4>Side Bar</h4>
+            <p>This is just to demonstrate that more things can be going on over here, thanks to the wonderful powers of Bootstrap.</p>
+            <p>Initially, I didn't think I would want to use Bootstrap, as I thought it would be beneficial to learn all I can about CSS (obviously that will be important eventually, but I'm never going to move on if I boggle down in one language for too long). It turns out, anyway, that Bootstrap is pretty good.</p>
+            <a href="#" class="btn btn-success">Sign Up</a>
+            <a href="#" class="btn btn-info">More Info</a>
+          </div>
+          <div class="side-sect">
+            <h4>What's So Funny?</h4>
+            <img src="img/laughter.jpg" alt="Old Lady Laughing">
+            <p class="pad-top">You won't be CLICKBAIT able to CLICKBAIT keep a straight face!</p>
+            <button class="btn btn-primary btn-block btn-lg"><span class="glyphicon glyphicon-thumbs-up"></span><span class="glyphicon glyphicon-triangle-right"></span> CLIIIICKBAAIIITT!!! <span class="glyphicon glyphicon-triangle-left"></span><span class="glyphicon glyphicon-thumbs-up"></button>
+          </div>
+        </div>
+
+      </div>
+        
+    </div>
+  </body>
+
+</html>
