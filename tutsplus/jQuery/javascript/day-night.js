@@ -4,7 +4,7 @@ $(document).ready(function() {
     var $this = $(this),
         stylesheet = $this.data("file");
     
-    link.attr("href", stylesheet + ".css");
+    link.attr("href", "css/" + stylesheet + ".css");
     
     $this
         .siblings("button")

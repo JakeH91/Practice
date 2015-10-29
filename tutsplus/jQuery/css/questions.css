@@ -1,0 +1,25 @@
+body {
+  width: 1000px;
+  margin: auto;
+}
+
+dt {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 2em;
+  background: #e3e3e3;
+  padding-left: 10px;
+  border-radius: 10px;
+  border-bottom: 1px solid #c5c5c5;
+  border-top: 1px solid white;
+}
+
+h4 {
+  padding-left: 10px;
+}
+
+dd {
+  margin: 0;
+  padding: 1em 0;
+}
