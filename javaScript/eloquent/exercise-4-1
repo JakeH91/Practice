@@ -1,0 +1,48 @@
+var range = function(a, b, c) {
+  var array1 = [];
+  if (c == undefined) {
+    c = 1;
+  };
+  if (c > 0) {
+    if (b > a) {
+      for (var i = a; i <= b; i += c) {
+       array1.push(i);
+      };
+    }
+    else if (a > b) {
+      for (var i = b; i <= a; i += c) {
+       array1.push(i);
+      };
+    }
+    else {
+      array1.push("They're the same numbers fool!")
+    }
+  }
+  else if (c < 0) {
+    if (a > b) {
+      for (var i = a; i >= b; i += c) {
+          array1.push(i);
+      };
+    }
+    else if (b > a) {
+      for (var i = b; i >= a; i += c) {
+        array1.push(i);
+      };
+    }
+    else {
+      array1.push("They're the same numbers fool!")
+    }
+  }
+  else {
+    array1.push("Don't choose 0 you big idiot!")
+  }
+  return array1;
+};
+
+var sum = function(a) {
+  var total = 0;
+  for (var i = 0; i < a.length; i++) {
+    total += a[i];
+  };
+  return total;
+};
