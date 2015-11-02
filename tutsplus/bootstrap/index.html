@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   
-  <body>
+  <body data-spy="scroll" data-target="#main-navbar">
     
     <!-- NAVBAR -->
     <nav class="navbar navbar-inverse navbar-fixed-top" id="main-navbar" role="navigation">
@@ -111,15 +111,14 @@
         </div> <!-- end row -->
         
         <div class="row pad-top">
-          <div class="col-sm-4">
-            <img src="img/feature-3.jpg" alt="Feature image" class="img-responsive">
-          </div>
           <div class="col-sm-8">
             <h3>This is a feature title</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis omnis sit, vero iusto voluptas sunt aperiam quis, maxime nisi rem cum laudantium tenetur quibusdam dolor iste aut voluptate ipsam impedit.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis omnis sit, vero iusto voluptas sunt aperiam quis, maxime nisi rem cum laudantium tenetur quibusdam dolor iste aut voluptate ipsam impedit.</p>
           </div>
-          
+          <div class="col-sm-4">
+            <img src="img/feature-3.jpg" alt="Feature image" class="img-responsive">
+          </div>
         </div> <!-- end row -->
         
         <div class="row pad-top">
@@ -355,6 +354,43 @@
           </div>
         </div>
       </section> <!-- end CONTACT -->
+
+      <!-- FOOTER -->
+      <footer>
+        <hr>
+
+        <div class="contain text-center">
+          <h3>Subscribe now for a 30-day free trial</h3>
+          <p>Enter your name and email below</p>
+
+          <form action="#" class="form-inline" role="form">
+            
+            <div class="form-group">
+              <label for="subscribe-name" class="sr-only">Name</label>
+              <input type="text" class="form-control" id="subscribe-name" placeholder="Name">
+            </div> <!-- end form-group -->
+            
+            <div class="form-group">
+              <label for="subscribe-email" class="sr-only">Email</label>
+              <input type="email" class="form-control" id="subscribe-email" placeholder="jon.smith@example.com">
+            </div> <!-- end form-group -->
+
+            <button type="submit" class="btn btn-default">Subscribe</button>
+
+            <p><small><em>We will only use your email address for sending the download link.</em></small></p>
+          </form>
+
+          <hr>
+
+          <ul class="list-inline">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+
+          <p>&copy; Copyright 2015.</p>
+
+        </div> <!-- end container -->
+      </footer>
 
 
     </div> <!-- end container -->
