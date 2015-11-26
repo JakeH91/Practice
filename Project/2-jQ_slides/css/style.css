@@ -1,0 +1,73 @@
+body {
+  padding-top: 50px;
+  background: #f2e5ff;
+}
+
+.jumbotron {
+    position: relative;
+    color: white;
+    background: url("../img/header.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.opac {
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  padding: 10px;
+}
+
+#newItem {
+  background: #e3e3e3;
+  padding: 1em 2em;
+  position: relative;
+}
+
+.js #newItem {
+  position: relative;
+  top: 0;
+  display: none;
+}
+
+.close {
+  position: absolute;
+  display: block;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.opac p, .opac h1 {
+  margin: 0;
+}
+
+.side-bar {
+  border: 1px solid gray;
+  padding: 20px;
+  background: 
+}
+
+ul.firstList {
+  list-style-position: outside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.secondList {
+  display: none;
+}
+
+ul.firstList>li {
+  cursor: pointer;
+  border: 1px solid purple;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  background: white;
+}
+
+h4 {
+  margin: 0;
+}
