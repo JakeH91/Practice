@@ -1,0 +1,75 @@
+h2 {
+  text-align: center;
+}
+
+.calc {
+  width: 350px;
+  margin: auto;
+  border: 1px solid black;
+  height: 450px;
+  border-radius: 5px;
+  background: #524284;
+}
+
+.screen {
+  background: #D2CFDD;
+  margin: 10%;
+  width: 80%;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.sum {
+  float: right;
+  margin-right: 10px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.buttons {
+  background: #301F67;
+  margin: 10%;
+  width: 80%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn-group {
+  width: 24%;
+  margin-left: 0.8%;
+  margin-top: 2px;
+}
+
+button {
+  background: #D2CFDD;
+  border: 0;
+  padding: 0;
+  margin-top: 2px;
+  margin-left: 0.8%;
+  width: 24%;
+  float: left;
+  height: 57px;
+  display: inline-block;
+}
+
+.small {
+  margin-top: 0;
+  margin-left: 0;
+  width: 50%;
+}
+
+.small:last-of-type {
+  border-left: 1px solid black;
+}
+
+button:active {
+  background: #A29ABC;
+}
+
+button:focus {
+  outline: 0;
+}
+

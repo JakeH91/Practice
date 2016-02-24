@@ -1,0 +1,150 @@
+* {
+  font-family: 'Lora', serif;
+}
+
+.main {
+  margin: none;
+  padding-left: none;
+  padding-right: none;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.section {
+ border: 1px solid black;
+  padding-top: 40px;
+}
+
+.row{
+  width: 100%;
+  margin: 0;
+}
+/* JUMBOTRON STUFF */
+
+.jumbotron {
+  height: 100%;
+  width: auto;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.jumbo-img {
+  width: 100%;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.intro {
+  position: absolute;
+  top: 50px;
+  margin: 0 5%;
+}
+
+.intro h1 {
+  font-size: 4.5vmax;
+  display: inline-block;
+  color: white;
+  padding: 0 10px;
+  background: rgba(0, 0, 0, 0.5)
+}
+
+.intro p {
+  font-size: 1.7vmax;
+  display: inline-block;
+  color: white;
+  padding: 0 10px;
+  background: rgba(0, 0, 0, 0.5)
+}
+
+/* ABOUT STUFF */
+
+#section-about {
+  height: auto;
+  padding-bottom: 40px;
+  background: #297A4A;
+}
+
+.about-img {
+  margin: 20px auto 0;
+  display: block;
+  border-radius: 50px;
+  border: 2px solid #050A2D;
+}
+
+.social {
+  width: 151px;
+  margin: 10px auto;
+  display: block;
+  position: relative;
+  padding: 5px;
+  border-radius: 5px;
+  background: #050A2D;
+}
+
+.social img {
+  padding-right: 3px;
+  border-radius: 5px;
+}
+
+.social img.git {
+  border-radius: 15px;
+}
+
+.social img.linked {
+  padding-right: 0px;
+}
+
+.about-text {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #91C7A7;
+  border: 1px solid #050A2D;
+  border-radius: 20px;
+  padding: 0 10px;
+  margin: 20px 40px 0;
+  color: #050A2D;
+}
+
+/* PORTFOLIO STUFF */
+
+#section-portfolio {
+  background: #313A75;
+  color: #91C7A7;
+}
+
+#section-portfolio h2, p{
+  text-align: center;
+}
+
+#section-portfolio .col-sm-3 {
+  color: #0D384A;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #002F13;
+  background: #9399C1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.thumbnail {
+  border: 1px solid #002F13;
+  background: #0D384A;
+  margin: 20px 10%;
+  width: 80%;
+  height: 220px;
+}
+
+/* CONTACT STUFF */
+
+#section-contact {
+  height: 80px;
+  padding: 10px 0;
+}
+
+#section-contact h3 {
+  text-align: center;
+}

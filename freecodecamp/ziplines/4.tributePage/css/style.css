@@ -1,0 +1,90 @@
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 38px;
+}
+
+#overview {
+  margin-top: 50px;
+}
+
+.intro-pic, .intro {
+  width: 100%;
+}
+
+.intro {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.pic {
+  position: relative;
+}
+
+.pic div {
+  display: none;
+}
+
+.intro-pic {
+  position: relative;
+}
+
+.img-nav-left, .img-nav-right {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 50px 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.img-nav-left:hover, .img-nav-right:hover {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  cursor: pointer;
+}
+
+.img-nav-left {
+  left: 0;
+}
+
+.img-nav-right {
+  right: 0;
+}
+
+.quote {
+  margin-top: 20px;
+  text-align: center;
+}
+
+blockquote {
+  border-left: 0;
+  margin: 1.5em 10px 0;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+#source {
+  text-align: right;
+  width: 80%;
+}
