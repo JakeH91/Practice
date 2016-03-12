@@ -2,6 +2,10 @@
   font-family: 'Lora', serif;
 }
 
+body {
+  background: #f7f8f7;
+}
+
 .main {
   margin: none;
   padding-left: none;
@@ -13,7 +17,6 @@
 }
 
 .section {
- border: 1px solid black;
   padding-top: 40px;
 }
 
@@ -25,9 +28,9 @@
 
 .jumbotron {
   height: 100%;
-  width: auto;
+  width: 99%;
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin: 10px auto 0;
 }
 
 .jumbo-img {
@@ -39,23 +42,22 @@
 .intro {
   position: absolute;
   top: 50px;
-  margin: 0 5%;
+  width: 100%;
+  margin: auto;
 }
 
 .intro h1 {
   font-size: 4.5vmax;
   display: inline-block;
   color: white;
-  padding: 0 10px;
-  background: rgba(0, 0, 0, 0.5)
+  background: rgba(46, 53, 44, 0.5)
 }
 
 .intro p {
   font-size: 1.7vmax;
   display: inline-block;
   color: white;
-  padding: 0 10px;
-  background: rgba(0, 0, 0, 0.5)
+  background: rgba(46, 53, 44, 0.5)
 }
 
 /* ABOUT STUFF */
@@ -63,7 +65,6 @@
 #section-about {
   height: auto;
   padding-bottom: 40px;
-  background: #297A4A;
 }
 
 .about-img {
@@ -111,7 +112,6 @@
 /* PORTFOLIO STUFF */
 
 #section-portfolio {
-  background: #313A75;
   color: #91C7A7;
 }
 
