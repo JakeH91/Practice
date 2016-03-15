@@ -88,6 +88,7 @@ body {
   background: #3D882B;
   border-radius: 20px;
   display: block;
+  box-shadow: 2px 2px 5px #002d00;
 }
 
 .title{
@@ -108,11 +109,12 @@ body {
 }
 
 .stuff {
-  width: 95%;
-  margin-left: 2.5%;
+  width: 98%;
+  margin-left: 1%;
   height: 83%;
   border-radius: 20px;
   background: white;
+  box-shadow: inset 2px 2px 3px #002d00;
 }
 
 @media (max-width: 664px) {
@@ -222,30 +224,7 @@ body {
   line-height: 1.6em;
 }
 
-.title{
-  width: 95%;
-  margin-left: 2.5%;
-  height: 16%;
-  position: relative;
 
-}
-
-.title h3 {
-  margin: 0;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  color: white;
-}
-
-.stuff {
-  width: 95%;
-  margin-left: 2.5%;
-  height: 83%;
-  border-radius: 20px;
-  background: white;
-}
 
 /* PORTFOLIO STUFF */
 
