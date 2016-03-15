@@ -156,7 +156,7 @@ body {
   }
 }
 
-/* @media (min-width: 730px) {
+@media (min-width: 730px) {
   .connect {
     margin: 0 0 0 2.5%;
     float: left;
@@ -174,7 +174,7 @@ body {
     height: 400px;
     float: right;
   }
-} */
+}
 
 
 .about-img {
