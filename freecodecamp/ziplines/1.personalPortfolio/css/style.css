@@ -31,7 +31,7 @@ body {
   width: 99%;
   padding-bottom: 0;
   margin: 10px auto 0;
-}
+  }
 
 .jumbo-img {
   width: 100%;
@@ -42,7 +42,7 @@ body {
 .intro {
   position: absolute;
   top: 50px;
-  width: 100%;
+  width: 99%;
   margin: auto;
 }
 
@@ -50,14 +50,18 @@ body {
   font-size: 4.5vmax;
   display: inline-block;
   color: white;
-  background: rgba(46, 53, 44, 0.5)
+  background: rgba(46, 53, 44, 0.4);
+  padding: 4px;
+  border: 2px solid white;
 }
 
 .intro p {
-  font-size: 1.7vmax;
+  font-size: 1.8vmax;
   display: inline-block;
   color: white;
-  background: rgba(46, 53, 44, 0.5)
+  background: rgba(46, 53, 44, 0.4);
+  padding: 4px;
+  border: 2px solid white;
 }
 
 /* ABOUT STUFF */
@@ -65,13 +69,121 @@ body {
 #section-about {
   height: auto;
   padding-bottom: 40px;
+  position: relative;
+  overflow: hidden;
 }
 
-.about-img {
-  margin: 20px auto 0;
+.connect {
+  width: 20%;
   display: block;
+}
+
+.learn {
+  width: 50%;
+  display: block;
+}
+
+.new {
+  width: 20%;
+  background: #3D882B;
+  border-radius: 20px;
+  display: block;
+}
+
+.title{
+  width: 95%;
+  margin-left: 2.5%;
+  height: 16%;
+  position: relative;
+
+}
+
+.title h3 {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+
+.stuff {
+  width: 95%;
+  margin-left: 2.5%;
+  height: 83%;
+  border-radius: 20px;
+  background: white;
+}
+
+@media (max-width: 664px) {
+
+  #section-about {
+    padding-bottom: 400px;
+  }
+
+  .connect {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .learn {
+    margin: 20px auto;
+    width: 80%;
+  }
+  .new {
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+  }
+}
+
+@media (min-width: 665px) {
+  .connect {
+    margin: 0 17.5%;
+    float: left;
+  }
+  .learn {
+    margin: 0 2.5%;
+    float: left;
+  }
+  .new {
+    margin: 0 2.5%;
+    width: 40%;
+    height: 720px;
+    float: right;
+  }
+}
+
+/* @media (min-width: 730px) {
+  .connect {
+    margin: 0 0 0 2.5%;
+    float: left;
+  }
+
+  .learn {
+    margin-left: 2.5%;
+    margin-right: 0;
+    float: left;
+  }
+
+  .new {
+    margin-right: 2.5%;
+    width: 20%;
+    height: 400px;
+    float: right;
+  }
+} */
+
+
+.about-img {
   border-radius: 50px;
-  border: 2px solid #050A2D;
+  border: 2px solid #3D882B;
+  width: 100%;
+  min-width: 151px;
+  background-size: 100% 100%;
+
 }
 
 .social {
@@ -81,7 +193,7 @@ body {
   position: relative;
   padding: 5px;
   border-radius: 5px;
-  background: #050A2D;
+  background: #3D882B;
 }
 
 .social img {
@@ -97,16 +209,42 @@ body {
   padding-right: 0px;
 }
 
+
 .about-text {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: #91C7A7;
-  border: 1px solid #050A2D;
+  background: white;
+  border: 2px solid #3D882B;
   border-radius: 20px;
   padding: 0 10px;
-  margin: 20px 40px 0;
   color: #050A2D;
+  line-height: 1.6em;
+}
+
+.title{
+  width: 95%;
+  margin-left: 2.5%;
+  height: 16%;
+  position: relative;
+
+}
+
+.title h3 {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+
+.stuff {
+  width: 95%;
+  margin-left: 2.5%;
+  height: 83%;
+  border-radius: 20px;
+  background: white;
 }
 
 /* PORTFOLIO STUFF */
