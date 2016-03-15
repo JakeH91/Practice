@@ -213,13 +213,9 @@ body {
 
 
 .about-text {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   background: white;
-  border: 2px solid #3D882B;
   border-radius: 20px;
-  padding: 0 10px;
+  padding: 10px 10px;
   color: #050A2D;
   line-height: 1.6em;
 }
