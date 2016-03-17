@@ -52,7 +52,6 @@ body {
   color: white;
   background: rgba(46, 53, 44, 0.4);
   padding: 4px;
-  border: 2px solid white;
 }
 
 .intro p {
@@ -61,7 +60,6 @@ body {
   color: white;
   background: rgba(46, 53, 44, 0.4);
   padding: 4px;
-  border: 2px solid white;
 }
 
 /* ABOUT STUFF */
@@ -73,15 +71,71 @@ body {
   overflow: hidden;
 }
 
+/* PIC AND SOCIAL MEDIA */
+
 .connect {
   width: 20%;
   display: block;
 }
 
+.about-img {
+  border-radius: 50px;
+  border: 2px solid #3D882B;
+  width: 100%;
+  min-width: 151px;
+  background-size: 100% 100%;
+
+}
+
+.social {
+  width: 151px;
+  margin: 10px auto;
+  display: block;
+  position: relative;
+  padding: 5px;
+  border-radius: 5px;
+  background: #3D882B;
+}
+
+.social img {
+  padding-right: 3px;
+  border-radius: 5px;
+}
+
+.social img.git {
+  border-radius: 15px;
+}
+
+.social img.linked {
+  padding-right: 0px;
+}
+
+/* ABOUT ME TEXT */
+
 .learn {
   width: 50%;
   display: block;
 }
+
+.about-text {
+  background: white;
+  border-radius: 20px;
+  padding: 10px 10px;
+  color: #050A2D;
+  line-height: 1.6em;
+}
+
+.about-text h2 {
+  font-size: 2.4em;
+  padding-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* UPDATING INFORMATION */
 
 .new {
   width: 20%;
@@ -108,13 +162,62 @@ body {
   color: white;
 }
 
+.stuff::-webkit-scrollbar {
+  width: 6px;
+  background: black;
+}
+
+.stuff::-webkit-scrollbar-thumb {
+  width: 9px;
+  background: green;
+}
+
 .stuff {
   width: 98%;
   margin-left: 1%;
   height: 83%;
   border-radius: 20px;
-  background: white;
+  background: #fcfdfc;
   box-shadow: inset 2px 2px 3px #002d00;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.hide {
+  display: none;
+}
+
+.news {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  height: 25%;
+  width: 96%;
+  margin-left: 2%;
+  border-bottom: 1px solid #e6eae6;
+  border-top: 1px solid white;
+}
+
+.first {
+  border-top: 0;
+}
+
+.last {
+  border-bottom: 0; 
+}
+
+.pic {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 15%;
+  left: 4%;
+  height: 70%;
+  width: 21%;
+  border: 1px solid #b7c8b7;
+  border-radius: 5px;
 }
 
 @media (max-width: 664px) {
@@ -177,50 +280,6 @@ body {
     float: right;
   }
 }
-
-
-.about-img {
-  border-radius: 50px;
-  border: 2px solid #3D882B;
-  width: 100%;
-  min-width: 151px;
-  background-size: 100% 100%;
-
-}
-
-.social {
-  width: 151px;
-  margin: 10px auto;
-  display: block;
-  position: relative;
-  padding: 5px;
-  border-radius: 5px;
-  background: #3D882B;
-}
-
-.social img {
-  padding-right: 3px;
-  border-radius: 5px;
-}
-
-.social img.git {
-  border-radius: 15px;
-}
-
-.social img.linked {
-  padding-right: 0px;
-}
-
-
-.about-text {
-  background: white;
-  border-radius: 20px;
-  padding: 10px 10px;
-  color: #050A2D;
-  line-height: 1.6em;
-}
-
-
 
 /* PORTFOLIO STUFF */
 
